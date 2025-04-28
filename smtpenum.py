@@ -4,7 +4,7 @@ import socket
 import sys
 
 if len(sys.argv) != 3:
-    print("Usage: vrfy.py <userfile> <ip>")
+    print("Usage: smtpenum.py <userfile> <ip>")
     sys.exit(0)
 
 s  = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
